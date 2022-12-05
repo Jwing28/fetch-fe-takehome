@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form > * {
+  margin: 0.25rem 0;
+}
+
+.form > input,
+.form > select {
+  padding: 0.25rem 0;
+}
+
+label {
+  font-weight: bold;
+}
+
+.form > button {
+  border: 1px solid;
+  padding: 0.5rem 0;
+  color: black;
+  background-color: lightblue;
+  border-radius: 10px;
+  font-size: 1.1rem;
+}
+
+.form > button:hover {
+  color: white;
+}
+
+.error {
+  color: red;
+  font-size: 1.1rem;
+}
